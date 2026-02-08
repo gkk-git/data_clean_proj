@@ -12,4 +12,4 @@ def remove_null_values(data):
 def remove_negative_values(data):
     """ Remvoes negative values in data and return the result"""
     # TODO
-    return data
+    return [i for i in data if i >=0]

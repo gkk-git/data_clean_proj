@@ -1,7 +1,7 @@
 def remove_duplicates(data):
     """ Removes duplicates in data and return the result"""
     # TODO
-    return data
+    return set(data)
 
 
 def remove_null_values(data):

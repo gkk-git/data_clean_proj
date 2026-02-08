@@ -1,7 +1,9 @@
-def remove_duplicates(data):
-    """ Removes duplicates in data and return the result"""
-    # TODO
-    return data
+def remove_duplicates(lst):
+    return list(set(lst))
+
+numbers = [1, 2, 2, 3, 4, 4, 5]
+print(remove_duplicates(numbers))
+
 
 
 def remove_null_values(data):

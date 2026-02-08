@@ -9,9 +9,9 @@ print(remove_duplicates(numbers))
 def remove_null_values(data):
     """ Removes null values in data and return the result"""
     # TODO
-    return data
+    return result
 
 def remove_negative_values(data):
     """ Remvoes negative values in data and return the result"""
     # TODO
-    return data
+    return [i for i in data if i >=0]

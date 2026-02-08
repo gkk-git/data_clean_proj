@@ -1,7 +1,7 @@
 def remove_duplicates(lst):
     return list(set(lst))
 
-numbers = [1, 2, 2, 3, 4, 4, 5]
+numbers = [1, 2, 2, 3, 4, 4, 5, 3]
 print(remove_duplicates(numbers))
 
 
